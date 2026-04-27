@@ -1,0 +1,34 @@
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+.Renviron
+
+# Outputs (kept on Cardinal, not in repo)
+outputs/*.rds
+outputs/*.csv
+outputs/*.tif
+outputs/*.gpkg
+outputs/*.las
+outputs/*.laz
+outputs/*.png
+outputs/*.pdf
+!outputs/.gitkeep
+
+# SLURM artifacts
+logs/
+*.out
+*.err
+
+# Macros and OS
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Sensitive
+*.key
+*.pem
+.ssh/
+cardinal_key*
