@@ -108,7 +108,7 @@ The scripts are written for the Cardinal HPC environment. Adapt paths and module
 
 ```bash
 # 1. Clone
-git clone https://github.com/<your-org>/howland-agb-12method.git
+git clone https://github.com/holoros/howland-agb-12method.git
 cd howland-agb-12method
 
 # 2. Set environment variables to point at your data
@@ -156,7 +156,7 @@ If you use this code, please cite both this repository and the manuscript:
 ```
 Weiskittel, A. R. (2026). howland-agb-12method: comparative assessment of
   twelve AGB projection methods at Howland Research Forest [Software].
-  https://github.com/<your-org>/howland-agb-12method
+  https://github.com/holoros/howland-agb-12method
 
 Weiskittel, A. R., et al. (2026). Comparative assessment of twelve methods
   for projecting forest aboveground biomass at the Howland Research Forest,

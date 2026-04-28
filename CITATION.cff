@@ -8,7 +8,7 @@ authors:
     affiliation: University of Maine
     email: aaron.weiskittel@maine.edu
     orcid: "https://orcid.org/0000-0003-1233-1334"
-repository-code: "https://github.com/<your-org>/howland-agb-12method"
+repository-code: "https://github.com/holoros/howland-agb-12method"
 license: MIT
 version: "1.0.0"
 date-released: 2026-04-25
