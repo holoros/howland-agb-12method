@@ -1,0 +1,13 @@
+method,coverage,cost_lo,cost_hi,cost_mid,rmse_10,rmse_10_lo,rmse_10_hi,rmse_20,rmse_50,family,is_new
+1 NAIP + ACD curve,Wall to wall,0.1,0.25,0.175,21.9,13.8,30.6,28.1,40.5,Library / ABA,FALSE
+2 Area-based LiDAR,Wall to wall,0.25,0.5,0.375,14.9,9,20.5,25.1,38.2,Library / ABA,FALSE
+3 LiDAR + ACD curve,Wall to wall,0.3,0.55,0.42500000000000004,12.1,7.4,16.7,16,22,Library / ABA,FALSE
+4 ITC + strata avg,Wall to wall,1.1,2.1,1.6,28.1,16.7,39.5,41,61,ITC + G&Y,FALSE
+5 ITC + FVS-NE,Wall to wall,0.75,1,0.875,35,21.4,48.1,50.1,70.8,ITC + G&Y,FALSE
+6 ITC + FVS-ACD,Wall to wall,0.75,1,0.875,10,6.1,14.3,14.1,17.9,ITC + G&Y,FALSE
+7 TLS + projection,Targeted,3,7,5,7,4.5,9.9,10,14,TLS,FALSE
+8 Field inventory,Sample based,5.78,9.25,7.515000000000001,8,4.8,11.4,12.1,14.9,Field,FALSE
+9 Curve matching,Wall to wall,1.04,1.95,1.495,35.9,35.7,36.2,38,44,Library / ABA,TRUE
+10 Directional 3D (pure Kohek),Wall to wall,6.5,9.8,8.15,26.4,25.9,26.8,30,37,Directional 3D,TRUE
+11 Directional 3D (hybrid A),Wall to wall,2.1,3.2,2.6500000000000004,24.7,24.5,25,28,35,Directional 3D,TRUE
+12 Directional 3D (hybrid B),Wall to wall,2.8,4.1,3.4499999999999997,25.2,25,25.5,29,36,Directional 3D,TRUE

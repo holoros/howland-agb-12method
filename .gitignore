@@ -6,15 +6,24 @@
 .Renviron
 
 # Outputs (kept on Cardinal, not in repo)
+# Large products excluded; small sample CSVs in outputs/sample_outputs/ are tracked
 outputs/*.rds
-outputs/*.csv
 outputs/*.tif
 outputs/*.gpkg
 outputs/*.las
 outputs/*.laz
 outputs/*.png
 outputs/*.pdf
+outputs/method09_results/
+outputs/method10_results/
+outputs/method11_results/
+outputs/method12_results/
+outputs/refinements/
+outputs/ornl_sensitivity/
+outputs/figures/
 !outputs/.gitkeep
+!outputs/sample_outputs/
+!outputs/sample_outputs/**
 
 # SLURM artifacts
 logs/

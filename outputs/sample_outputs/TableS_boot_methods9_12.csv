@@ -1,0 +1,5 @@
+method,med,lo,hi
+9 Curve matching,35.92,35.69,36.16
+10 Pure Kohek (holdout),26.35,25.88,26.79
+11 Hybrid A (stratified),24.72,24.46,24.98
+12 Hybrid B (stratified),25.24,24.98,25.5

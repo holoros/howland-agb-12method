@@ -50,9 +50,27 @@ howland-agb-12method/
 ├── slurm/                                   # SLURM submit scripts for OSC Cardinal
 ├── docs/
 │   ├── DATA.md                              # Data sources and access
-│   ├── METHODS.md                           # Method by method summary
-│   └── REPRODUCE.md                         # Step by step reproduction guide
-├── outputs/                                 # Empty placeholder; populated on Cardinal
+│   ├── METHODS.md                           # Method by method technical summary
+│   ├── REPRODUCE.md                         # Step by step reproduction guide
+│   ├── MANUSCRIPT_SECTIONS.md               # Prose source for sections 2.9 to 2.12
+│   ├── ORIGINAL_METHODS_MEMO.md             # Background memo proposing Methods 9 to 12
+│   ├── TECHNICAL_REVIEW.md                  # Pre-submission peer-style review record
+│   └── QC_ASSESSMENT.md                     # v4.5 comprehensive QC pass
+├── outputs/
+│   └── sample_outputs/                      # Small validation CSVs (tracked)
+│       ├── README.md                        # Index of sample CSVs
+│       ├── method09_validation.csv
+│       ├── method10_validation.csv
+│       ├── method11_validation.csv
+│       ├── method12_validation.csv
+│       ├── refined_method_stats.csv         # Final headline numbers
+│       ├── refinements_summary.csv          # Bootstrap CIs
+│       ├── methods_11_12_ornl_validation.csv
+│       ├── methods_11_12_ornl_fits.csv
+│       ├── Table_method_summary_12methods.csv
+│       ├── TableS_boot_methods9_12.csv
+│       └── TableS_stratified_fits.csv
+├── CHANGELOG.md
 ├── CITATION.cff
 ├── LICENSE
 └── README.md

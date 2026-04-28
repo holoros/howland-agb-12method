@@ -1,0 +1,17 @@
+model,group,n,alpha,beta
+"Method 11 (literature H-D, default Kohek)",High_coniferous,3626,194.845,0.262
+"Method 11 (literature H-D, default Kohek)",High_deciduous,143,195.57,0.304
+"Method 11 (literature H-D, default Kohek)",High_mixed,343,187.499,0.354
+"Method 11 (literature H-D, default Kohek)",Low_coniferous,2099,59.463,1.646
+"Method 11 (literature H-D, default Kohek)",Low_mixed,560,63.206,1.651
+"Method 11 (literature H-D, default Kohek)",Medium_coniferous,2936,105.093,1.124
+"Method 11 (literature H-D, default Kohek)",Medium_deciduous,31,0,6.87
+"Method 11 (literature H-D, default Kohek)",Medium_mixed,443,103.966,0.87
+"Method 12 (TLS H-D, calibrated Kohek)",High_coniferous,3626,196.006,0.2
+"Method 12 (TLS H-D, calibrated Kohek)",High_deciduous,143,194.069,0.272
+"Method 12 (TLS H-D, calibrated Kohek)",High_mixed,343,190.304,0.238
+"Method 12 (TLS H-D, calibrated Kohek)",Low_coniferous,2099,58.501,0.812
+"Method 12 (TLS H-D, calibrated Kohek)",Low_mixed,560,64.128,0.764
+"Method 12 (TLS H-D, calibrated Kohek)",Medium_coniferous,2936,109.797,0.636
+"Method 12 (TLS H-D, calibrated Kohek)",Medium_deciduous,31,0,4.655
+"Method 12 (TLS H-D, calibrated Kohek)",Medium_mixed,443,111.867,0.342
