@@ -37,12 +37,26 @@ Method 11 is the best of the four new methods. None of them beats the existing I
 
 ```
 howland-agb-12method/
-├── R/                                       # Core analysis scripts (one per method)
+├── R/                                       # Core analysis scripts
+│   ├── methods_01_08/                       # Original 8-method analysis (v4.4 baseline)
+│   │   ├── README.md                        # Method-to-script mapping for Methods 1-8
+│   │   ├── 01_howland_agb_yield_curves.R    # Methods 2 and 3 (yield curves)
+│   │   ├── 02_howland_lamb_plot_matching.R  # Methods 4 and 7 (kNN, TLS)
+│   │   ├── 03_howland_individual_tree_efi_fvs.R # ITC pipeline shared by Methods 4-6
+│   │   ├── 04_howland_naip_projection_validation.R # Method 1 (NAIP)
+│   │   ├── 05_howland_fvsne_projection_comparison.R # Methods 5 and 6 (FVS-NE, FVS-ACD)
+│   │   ├── 06_recalibrate_with_2025als.R    # Method 2 4-point recalibration
+│   │   ├── 07_calibrate_fvsacd.R            # Method 6 calibration
+│   │   ├── 08_pixel_validation.R            # Method 8 (field) and pixel comparison
+│   │   ├── 09_decision_framework.R          # Cost-accuracy quadrant framework
+│   │   ├── 10_pixel_method_comparison.R     # Wall-to-wall pixel comparison
+│   │   ├── generate_manuscript_figures.R    # Figures 1-13 (v4.4 main)
+│   │   └── reviewer_response_analyses.R     # First-round reviewer response analyses
 │   ├── method09_curve_matching.R            # Method 9 (Tompalski 2016, 2018)
 │   ├── method10_directional_kohek.R         # Method 10 (Kohek 2022, decimated ALS)
 │   ├── method11_hybrid_itc_anchor.R         # Method 11 (ITC 2017 anchor)
 │   ├── method12_hybrid_itc_tls.R            # Method 12 (ITC + TLS calibration)
-│   ├── refinements_stratified_holdout_bootstrap.R  # Post hoc refinements
+│   ├── refinements_stratified_holdout_bootstrap.R  # Post hoc refinements (M9-M12)
 │   └── methods_11_12_ornl_sensitivity.R     # Sensitivity test with ORNL 2017 anchor
 ├── figures/
 │   ├── main_figures.R                       # Figs 3, 4, 5, 6 (manuscript)

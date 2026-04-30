@@ -4,6 +4,15 @@ All notable changes to this analysis are documented in this file.
 
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project tracks the manuscript revision pipeline.
 
+## [Unreleased] — 2026-04-29
+
+### Added
+- `R/methods_01_08/` directory with 12 scripts implementing Methods 1 through 8 from the v4.4 baseline analysis (yield curves, Lamb kNN imputation, ITC pipeline, FVS-NE/ACD comparison, 2025 recalibration, pixel validation, decision framework, manuscript figures, reviewer response analyses)
+- `R/methods_01_08/README.md` mapping each method (1 through 8) to its primary scripts and providing the canonical pipeline order
+- README repository layout updated to show the full file inventory across all 12 methods
+
+The repository now contains the analysis code for all 12 methods rather than only the 4 added in v4.5.
+
 ## [v4.5] — 2026-04-25
 
 Pre-submission, ready for co-author circulation.
