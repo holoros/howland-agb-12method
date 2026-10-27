@@ -4,7 +4,28 @@ All notable changes to this analysis are documented in this file.
 
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project tracks the manuscript revision pipeline.
 
-## [Unreleased] — 2026-04-29
+## [Unreleased] — 2026-10-26
+
+### Status
+- The v4.5 analysis (April 2026) and its headline table are superseded. The October 2026 rebuild replaced the field plots
+  with the 70 DigiSylva plots measured in 2024 to 2026, reran every method against the ORNL DAAC version 2 maps in carbon
+  units on the Jenkins scale, and moved the manuscript to Forest Ecosystems. Zenodo record 10.5281/zenodo.23477608
+  (version 2.0.0, 2026-10-19) archives the v4.8 analysis and states that the version 1.0.0 accuracy tables and the
+  cost-effectiveness conclusion are retracted. The R scripts in `R/` remain as run for v4.5 and are not updated here.
+
+### Added
+- `reanalysis/2026-10-23_v2-reproduction/`: independent reproduction of the map-only quantities from public data, the
+  AcadianGY 12.3.6 climate site index check, and the turnkey reanalysis script for the coauthors' per-cell tables.
+- `reanalysis/2026-10-26_close-items/`: Cardinal job 15894685, which rebuilds the map-initialized methods from the
+  manuscript's curve parameters on an approximate domain and produces the per-cell offset-adjusted rescoring with
+  bootstrap intervals (Table A4 of the 2026-10-26 revision), plot-level scoring of every method (Table A5), offset
+  sensitivity to trend form, hull buffer and registration shift, the three-cornered hat for all 20 triplets, and the
+  FVS-ACD curve increment at climate site index 10, 12 and 14 m.
+
+### Changed
+- README status note and citation target (Forest Ecosystems, in preparation); CITATION.cff authors and journal.
+
+## [v4.5-unreleased] — 2026-04-29
 
 ### Added
 - `R/methods_01_08/` directory with 12 scripts implementing Methods 1 through 8 from the v4.4 baseline analysis (yield curves, Lamb kNN imputation, ITC pipeline, FVS-NE/ACD comparison, 2025 recalibration, pixel validation, decision framework, manuscript figures, reviewer response analyses)

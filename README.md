@@ -1,6 +1,14 @@
 # howland-agb-12method
 
-Comparative assessment of twelve methods for projecting forest aboveground biomass at the Howland Research Forest, Maine, USA. Companion analysis code and outputs for Weiskittel et al. (2026), *Forestry*.
+Comparative assessment of twelve methods for projecting forest aboveground biomass at the Howland Research Forest, Maine, USA. Companion analysis code and outputs for Weiskittel, Wei, Hayes, Fei and Habib (in preparation), *Forest Ecosystems*.
+
+> **Status, October 2026.** The v4.5 results below (April 2026) are superseded. The October 2026 rebuild replaced the plots
+> with the 70 DigiSylva plots of 2024 to 2026, reran all methods against the ORNL DAAC version 2 maps in carbon units, and
+> found that the initial condition, not the growth model, controls agreement with later maps: methods initialized from the
+> 2017 map stay within 4.5 to 5.4% RMSE of the 2021 map against 6.0% for the static reference, while ITC-initialized
+> methods start 22% low and no growth model closes the gap. The Zenodo record (10.5281/zenodo.23477608, version 2.0.0)
+> retracts the v1.0.0 accuracy tables and the cost-effectiveness conclusion. See `CHANGELOG.md` and `reanalysis/` for the
+> October reproductions; the `R/` scripts remain as run for v4.5.
 
 ## Overview
 
@@ -21,7 +29,7 @@ This repository contains the R analysis code and SLURM submission scripts used t
 
 Methods 1 through 8 are the original analysis (see Weiskittel et al. 2026 main text and supplementary v3). Methods 9 through 12 are added in the v4.5 revision and are the primary focus of the code in this repository.
 
-## Headline results
+## Headline results (v4.5, April 2026; superseded, see status note)
 
 | # | Method | Cost ($/ac) | RMSE 10 yr (%) | 95% CI | R² |
 |---|--------|------|----------|------------|------|
@@ -37,6 +45,7 @@ Method 11 is the best of the four new methods. None of them beats the existing I
 
 ```
 howland-agb-12method/
+├── reanalysis/                              # October 2026 reproductions from public data (see RUN.md in each)
 ├── R/                                       # Core analysis scripts
 │   ├── methods_01_08/                       # Original 8-method analysis (v4.4 baseline)
 │   │   ├── README.md                        # Method-to-script mapping for Methods 1-8

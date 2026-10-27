@@ -1,0 +1,23 @@
+| path | md5 | bytes |
+|---|---|---|
+| reanalysis/2026-10-23_v2-reproduction/howland_v2_reproduce.py | ce86a7a77aae5adb75584488fb7b915f | 11265 |
+| reanalysis/2026-10-23_v2-reproduction/csi_check.R | a9580f130f8546389ba3e1d60078b41e | 3854 |
+| reanalysis/2026-10-23_v2-reproduction/csi_summary.csv | a6b1d563f512b4f50f530617e6e019b6 | 448 |
+| reanalysis/2026-10-23_v2-reproduction/summary.json | 1eccda32c7cabb3bc64f8cb6b4004e66 | 3474 |
+| reanalysis/2026-10-23_v2-reproduction/contrasts.csv | 80d795f69c1917296c80335c6fe1bc29 | 2047 |
+| reanalysis/2026-10-23_v2-reproduction/deciles.csv | 28367edbccd3fe05a8324b7e87a27982 | 1359 |
+| reanalysis/2026-10-23_v2-reproduction/plot_scores.csv | fabcdfcafb8dcb245dc763abc90f04c9 | 1818 |
+| reanalysis/2026-10-23_v2-reproduction/inputs.md5 | cf5d08c2e63265f4e9768313d03e8c36 | 418 |
+| reanalysis/2026-10-23_v2-reproduction/howland_reanalysis_checks.py | 58684a60f70cea8a799b35eb8caf91fd | 12140 |
+| reanalysis/2026-10-23_v2-reproduction/README_reanalysis_checks.md | 1cd5a0add84fc4df26b11555a495e846 | 2481 |
+| reanalysis/2026-10-26_close-items/howland_close_items.py | 57c7ecb30a4903b1fe96f92d5d714283 | 16733 |
+| reanalysis/2026-10-26_close-items/summary.json | 62c6c310e85ade172b63a58088914af6 | 6460 |
+| reanalysis/2026-10-26_close-items/method_scores.csv | 85efa51ea95ba6695383bffaca8dbde4 | 5019 |
+| reanalysis/2026-10-26_close-items/score_intervals.csv | 988880955fece32e3b00bf08f13bd93a | 6180 |
+| reanalysis/2026-10-26_close-items/contrasts.csv | b3398326c6e4fe8f649af2337eaa7646 | 7474 |
+| reanalysis/2026-10-26_close-items/plot_scores.csv | 9dc04f5c0505e90e3d66c024b82c1b47 | 7435 |
+| reanalysis/2026-10-26_close-items/plot_predictions.csv | 7df5bec9e84b9da3941904ee9fa9010a | 38749 |
+| reanalysis/2026-10-26_close-items/three_cornered_hat_all.csv | 09e3b3d39b015a06ec811824f76d59ae | 1431 |
+| reanalysis/2026-10-26_close-items/inputs_md5.json | 34383fe13469a76633c0bcaee2ea0edd | 529 |
+| reanalysis/2026-10-26_close-items/run_15894685.log | 6fce2be0d7863dfb21dbe22119777135 | 7 |
+| reanalysis/2026-10-26_close-items/submit_close_items.slurm | 569dee3969896ca9bb7ee7be60c60924 | 460 |

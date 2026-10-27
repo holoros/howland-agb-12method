@@ -21,10 +21,22 @@ keywords:
   - Howland Research Forest
 preferred-citation:
   type: article
-  title: "Comparative assessment of twelve methods for projecting forest aboveground biomass at the Howland Research Forest, Maine, USA"
+  title: "Comparative assessment of twelve methods for projecting aboveground biomass at the Howland Research Forest, Maine, USA"
   authors:
     - family-names: Weiskittel
       given-names: Aaron R.
-  journal: Forestry
+    - family-names: Wei
+      given-names: Xinyuan
+    - family-names: Hayes
+      given-names: Daniel J.
+    - family-names: Fei
+      given-names: Songlin
+    - family-names: Habib
+      given-names: Ayman
+  journal: Forest Ecosystems
   year: 2026
-  status: in-press
+  status: in-preparation
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23477608
+    description: Zenodo record, version 2.0.0 (v4.8 analysis code and derived data products)
